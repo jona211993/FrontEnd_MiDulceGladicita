@@ -1,0 +1,50 @@
+.card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70%;
+   gap: 10px;
+   margin:auto;
+}
+.card > img{
+    height: 200px;
+    width: 200px;
+}
+.btn-comprar{
+    background: #ffffff; /* color de fondo */
+    color: #35280c; /* color de fuente */
+    border: 2px solid #573b11; /* tamaño y color de borde */
+    padding: 14px 18px;
+    border-radius: 10px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+.btn-comprar:hover{
+    color: #ffffff;/* color de fuente hover */
+    font-weight: bold;
+}
+.btn-comprar::after{
+    content: "";
+    background: #359135; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(45deg) scale(0, 1);
+    transition: all 0.3s ease;
+}
+.btn-comprar:hover::after{
+    transition: all 0.3s ease-out;
+    transform: skewX(45deg) scale(1, 1);
+}
+.msj-elegido{
+    color: rgb(82, 82, 209);
+    margin-bottom: 1em;
+}

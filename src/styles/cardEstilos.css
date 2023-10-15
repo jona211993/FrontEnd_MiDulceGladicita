@@ -1,0 +1,14 @@
+.card{
+    width: 30%;
+    height: 30em;
+    margin: 1em;    
+    /* background-image: linear-gradient(to left bottom, #695f39, #766b48, #837858, #908568, #9d9278, #a09579, #a2977a, #a59a7b, #9d936d, #958c60, #8c8553, #837f46); */
+    /* box-shadow: 0 4px 8px 0 rgba(104, 58, 20, 0.589);
+    transition: 0.9s; */
+}
+/* .card:hover {
+    box-shadow: 0 12px 20px 0 rgba(105, 48, 10, 0.651);
+  } */
+.contenido{
+    color: rgb(212, 212, 214);
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;  
+}
+body{
+    background-image: url("https://images.pexels.com/photos/5845840/pexels-photo-5845840.jpeg?auto=compress&cs=tinysrgb&w=600") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+}
+
+.Nosotros{
+    height: 400px;
+    background-color: aliceblue;
+}
+.Frase{
+    height: 400px;  
+}
+.container-services{
+    height: 500px;  
+    background-color: aliceblue;
+}
+
+

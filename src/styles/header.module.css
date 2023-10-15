@@ -1,0 +1,33 @@
+.MiHeader{
+
+    background-color: rgb(51, 48, 48); 
+    opacity: 0.8;
+    display: grid;
+    grid-template-columns:1fr 2fr 8fr 1fr; 
+    justify-content: left;
+    align-items: center;
+    grid-gap: 1em;
+    text-align:center;
+    width: 100%;
+    height: 70px;
+    position: fixed;    
+   
+}
+@media only screen and (max-width: 750px) {
+ .MiHeader{
+  grid-template-columns:1fr 2fr 1fr; 
+ }
+}
+
+.flechas{
+  border: none;
+  opacity: 0.3;
+  background-color: rgb(158, 109, 57);
+  width: 10%;
+  
+}
+.espacio{
+  height: 70px;
+}
+
+

@@ -1,0 +1,113 @@
+.wraper-contact{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-contact{
+    width: 90%;
+    height: 80%;
+    margin-top: 3em;
+    background-color: papayawhip;
+    justify-content: center;
+    
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-formulario{
+    background-color: rgb(46, 44, 44);
+    width: 100%;   
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+        
+}
+@media only screen and (max-width: 750px) {
+    .container-formulario{
+     display: flex;
+     flex-direction: column;
+     grid-template-rows: 1fr 1fr; 
+     margin-top: 20px;
+    }
+   }
+
+.cf-datos{
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 90%;
+    margin: auto;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    background-color: rgb(46,44,44);;  
+}
+.box >label{
+  
+    font-size: medium;
+    font-weight: 500;
+    color: aliceblue;
+}
+.box > input{
+    width: 80%;
+    margin: auto;
+    border:none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 0 white;
+    margin-bottom: 30px;
+    background-color: rgb(46,44,44);
+    cursor: pointer;
+       
+}
+
+.cf-mensaje{
+    background-color: rgb(46,44,44);
+    width: 90%;
+    margin:auto;
+    
+}
+.cf-mensaje div > label{
+    margin-top: 1em;
+    
+}
+.cf-mensaje div>textarea{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.container-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46,44,44);
+}
+
+.container-btn .mybutton{
+    width: 10rem;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1em;
+    
+    
+}
+.container-btn .mybutton:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.wraper{
+    padding:20px 0px;
+    
+}
