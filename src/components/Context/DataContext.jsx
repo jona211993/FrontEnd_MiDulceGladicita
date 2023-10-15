@@ -8,7 +8,7 @@ const DataProvider = ({children}) => {
     const [carrito,setCarrito]=useState([]);
 
     useEffect(()=>{        
-        axios.get("http://localhost:3000/Productos")
+        axios.get("https://backendtiendagladicita-production.up.railway.app/productos")
         .then(({data})=> setProductos(data))
     },[]);
 

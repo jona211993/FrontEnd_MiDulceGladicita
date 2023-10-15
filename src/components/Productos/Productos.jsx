@@ -10,9 +10,10 @@ function Productos() {
     return (
       <div className="card" key={producto.id}>
         <img src={producto.imagen} alt="imagen" />
-        <h3>{producto.sabor}</h3>
+        <h3>{producto.nombre}</h3>
+        <h5>Sabor: {producto.sabor} </h5>
         <h4>S/.{producto.precio}</h4>
-        {producto.elegido===false?
+        {producto.elegido===0?
          <button className="btn-comprar" onClick={() => { comprarProducto(producto); producto.elegido=true}}>Comprar</button>
          :<h4 className="msj-elegido">Producto en carrito</h4>
         }
