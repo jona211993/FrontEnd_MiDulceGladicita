@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import estilos from "../../styles/header.module.css";
+import "../../styles/header.css";
 import estilos_banner from "../../styles/banner.module.css";
 import "./Banner.css";
 
@@ -18,7 +18,7 @@ function Banner({ imagenes, size }) {
   return (
     <div className="myBanner">
       <div className="botonLateral">
-        <button className={estilos.flechas} onClick={previousImage}>
+        <button className="flechas" onClick={previousImage}>
           <box-icon name="chevron-left" color="white" size="4em"></box-icon>
         </button>
       </div>
@@ -35,7 +35,7 @@ function Banner({ imagenes, size }) {
       </div>
 
       <div className="botonLateral">
-        <button className={estilos.flechas} onClick={nextImage}>
+        <button className="flechas" onClick={nextImage}>
           <box-icon name="chevron-right" color="white" size="4em"></box-icon>
         </button>
       </div>

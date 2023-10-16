@@ -1,0 +1,97 @@
+.MiHeader{
+
+    background-color: rgb(51, 48, 48); 
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    grid-gap: 1em;
+    text-align:center;
+    width: 100%;
+    height: auto;
+    position: fixed;    
+   
+}
+.MiHeader.active{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;  
+  text-align: center;
+  top: 0%;
+  
+}
+
+.flechas{
+  border: none;
+  opacity: 0.3;
+  background-color: rgb(158, 109, 57);
+  width: 10%;
+  
+}
+.espacio{
+  height: 70px;
+}
+
+.barranavegacion ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.barranavegacion ul > li{
+  display: flex;
+  justify-content: flex-end;
+  margin: 11px;
+}
+.barranavegacion ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+}
+.barranavegacion  ul> li > a:hover {
+  color: #b68813;  
+}
+
+@media only screen and (max-width: 750px) {
+  .MiHeader{
+    grid-template-columns:1fr 2fr 1fr 1fr; 
+   }
+  .barranavegacion{
+    position: absolute;
+    top: -700px;
+    left: -2000px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .barranavegacion.active{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgb(117, 116, 111);
+    
+
+}
+.barranavegacion.active ul{
+  display: block;
+   align-items: center;
+}
+.barranavegacion.active ul >li{
+  align-items: center;
+  justify-content: center;
+}
+
+}
+@media only screen and (min-width: 751px) {
+  .btn-menu{
+    display: none;
+  }
+}
