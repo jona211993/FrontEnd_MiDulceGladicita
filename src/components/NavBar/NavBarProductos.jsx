@@ -46,7 +46,7 @@ const Carrito = styled.div`
   color: white;
   background-color: brown;
   border-radius: 65%;
-  height: 60%;
-  width: 15%;
+  height: 55px;
+  width: 55px;
   margin: 0px auto;
 `;

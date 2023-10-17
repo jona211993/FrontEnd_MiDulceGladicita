@@ -92,7 +92,7 @@ const Carrito = styled.div`
   color: white;
   background-color: brown;
   border-radius: 65%;
-  height: 60px;
-  width: 80px
+  height: 55px;
+  width: 55px
  
 `;

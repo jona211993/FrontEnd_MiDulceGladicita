@@ -24,5 +24,6 @@ export default Products;
 const TitlePage = styled.h1`
   color: #3c1f1f;
   padding-top: 1em;
+  margin-left: 20px;
   
 `;

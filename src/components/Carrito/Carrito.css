@@ -18,6 +18,13 @@
   margin: 30px;
 }
 
+@media screen and (max-width:1005px) {
+  .carrito-content{
+    flex-direction: column;
+
+  }
+  
+}
 .carrito-content > img {
   height: 120px;
   width: 100px;
@@ -27,7 +34,7 @@
   background-color: papayawhip;
   display: flex;
   justify-content: end;
-  padding-right: 5em;
+  padding-right: 5px;
 }
 .valor-total {
   background-color: rgb(131, 89, 54);

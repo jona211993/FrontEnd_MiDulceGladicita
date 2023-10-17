@@ -12,7 +12,7 @@ function NavBarCarrito() {
         <div className="NavBar_P">
           <div className="retroceso">
             <box-icon name="arrow-back" color="white"></box-icon>
-            <Link to={"/productos"}>Volver a Productos</Link>
+            <Link to={"/productos"}>Productos</Link>
           </div>
           <Marca>
             <h3>Mi Dulce Gladicita</h3>
@@ -47,7 +47,7 @@ const Carrito = styled.div`
   color: white;
   background-color: brown;
   border-radius: 65%;
-  height: 60%;
-  width: 15%;
+  height: 55px;
+  width: 55px;
   margin: 0px auto;
 `;
